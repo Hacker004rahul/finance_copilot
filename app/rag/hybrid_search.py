@@ -4,6 +4,8 @@ import json
 import math
 import re
 from collections import Counter
+from functools import lru_cache
+from hashlib import sha256
 from pathlib import Path
 
 from app.schemas.data_models import SourceChunk
@@ -22,7 +24,8 @@ def tokenize(text: str) -> list[str]:
 def embed_text(text: str) -> list[float]:
     vector = [0.0] * VECTOR_SIZE
     for token, count in Counter(tokenize(text)).items():
-        index = hash(token) % VECTOR_SIZE
+        digest = sha256(token.encode("utf-8")).digest()
+        index = int.from_bytes(digest[:4], "big") % VECTOR_SIZE
         vector[index] += 1.0 + math.log(count)
     norm = math.sqrt(sum(value * value for value in vector))
     if norm:
@@ -42,6 +45,7 @@ def keyword_score(query_tokens: set[str], chunk_tokens: list[str]) -> float:
     return overlap / (len(query_tokens) + 2)
 
 
+@lru_cache(maxsize=4)
 def load_index(index_path: Path = INDEX_PATH) -> list[dict]:
     if not index_path.exists():
         raise FileNotFoundError(

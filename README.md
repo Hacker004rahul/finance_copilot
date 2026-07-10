@@ -27,6 +27,25 @@ uv run streamlit run ui/app.py
 
 The app opens in your browser from Streamlit, usually at `http://localhost:8501`.
 
+## Render deployment
+
+This repository includes `render.yaml` for Render's free web service tier.
+
+Build command:
+
+```bash
+pip install uv && uv sync && uv run python scripts/generate_synthetic_data.py && uv run python scripts/ingest.py
+```
+
+Start command:
+
+```bash
+uv run streamlit run ui/app.py --server.port=$PORT --server.address=0.0.0.0
+```
+
+The app does not require real financial data. `OPENAI_API_KEY` is optional for this demo because
+the Streamlit app uses the same deterministic tools locally instead of making live model calls.
+
 ## Data generation
 
 The generator uses fixed random seed `42` for reproducibility. It creates:

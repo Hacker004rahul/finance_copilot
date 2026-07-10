@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: finance-copilot
+    runtime: python
+    plan: free
+    buildCommand: pip install uv && uv sync && uv run python scripts/generate_synthetic_data.py && uv run python scripts/ingest.py
+    startCommand: uv run streamlit run ui/app.py --server.port=$PORT --server.address=0.0.0.0
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
