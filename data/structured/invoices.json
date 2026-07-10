@@ -1,0 +1,152 @@
+[
+  {
+    "amount": 52775.54,
+    "category": "Project Management",
+    "currency": "USD",
+    "due_date": "2026-03-16",
+    "invoice_id": "INV-1000",
+    "issue_date": "2026-03-01",
+    "status": "paid",
+    "vendor": "CloudBoard Labs"
+  },
+  {
+    "amount": 2977.12,
+    "category": "Collaboration SaaS",
+    "currency": "USD",
+    "due_date": "2026-04-05",
+    "invoice_id": "INV-1001",
+    "issue_date": "2026-03-06",
+    "status": "pending",
+    "vendor": "SynapseSheets"
+  },
+  {
+    "amount": 23241.13,
+    "category": "Security",
+    "currency": "USD",
+    "due_date": "2026-04-17",
+    "invoice_id": "INV-1002",
+    "issue_date": "2026-03-11",
+    "status": "overdue",
+    "vendor": "AuthTower Security"
+  },
+  {
+    "amount": 19041.23,
+    "category": "Travel",
+    "currency": "USD",
+    "due_date": "2026-03-31",
+    "invoice_id": "INV-1003",
+    "issue_date": "2026-03-16",
+    "status": "paid",
+    "vendor": "TripHarbor Travel"
+  },
+  {
+    "amount": 60640.99,
+    "category": "Events",
+    "currency": "USD",
+    "due_date": "2026-04-20",
+    "invoice_id": "INV-1004",
+    "issue_date": "2026-03-21",
+    "status": "pending",
+    "vendor": "Northstar Events"
+  },
+  {
+    "amount": 55796.49,
+    "category": "Finance Systems",
+    "currency": "USD",
+    "due_date": "2026-04-20",
+    "invoice_id": "INV-1005",
+    "issue_date": "2026-03-26",
+    "status": "overdue",
+    "vendor": "LedgerLoop Systems"
+  },
+  {
+    "amount": 73261.15,
+    "category": "Cloud Infrastructure",
+    "currency": "USD",
+    "due_date": "2026-04-15",
+    "invoice_id": "INV-1006",
+    "issue_date": "2026-03-31",
+    "status": "paid",
+    "vendor": "Nimbus Cloud"
+  },
+  {
+    "amount": 7996.39,
+    "category": "Legal",
+    "currency": "USD",
+    "due_date": "2026-05-05",
+    "invoice_id": "INV-1007",
+    "issue_date": "2026-04-05",
+    "status": "pending",
+    "vendor": "Harbor Legal LLP"
+  },
+  {
+    "amount": 35146.76,
+    "category": "Recruiting",
+    "currency": "USD",
+    "due_date": "2026-05-25",
+    "invoice_id": "INV-1008",
+    "issue_date": "2026-04-10",
+    "status": "paid",
+    "vendor": "BrightPath Recruiting"
+  },
+  {
+    "amount": 3365.06,
+    "category": "Data Tools",
+    "currency": "USD",
+    "due_date": "2026-04-30",
+    "invoice_id": "INV-1009",
+    "issue_date": "2026-04-15",
+    "status": "pending",
+    "vendor": "MetricForge Analytics"
+  },
+  {
+    "amount": 18670.61,
+    "category": "Project Management",
+    "currency": "USD",
+    "due_date": "2026-04-25",
+    "invoice_id": "INV-1010",
+    "issue_date": "2026-04-20",
+    "status": "overdue",
+    "vendor": "CloudBoard Labs"
+  },
+  {
+    "amount": 41909.05,
+    "category": "Collaboration SaaS",
+    "currency": "USD",
+    "due_date": "2026-06-09",
+    "invoice_id": "INV-1011",
+    "issue_date": "2026-04-25",
+    "status": "paid",
+    "vendor": "SynapseSheets"
+  },
+  {
+    "amount": 3100.74,
+    "category": "Security",
+    "currency": "USD",
+    "due_date": "2026-05-15",
+    "invoice_id": "INV-1012",
+    "issue_date": "2026-04-30",
+    "status": "pending",
+    "vendor": "AuthTower Security"
+  },
+  {
+    "amount": 17065.79,
+    "category": "Travel",
+    "currency": "USD",
+    "due_date": "2026-06-04",
+    "invoice_id": "INV-1013",
+    "issue_date": "2026-05-05",
+    "status": "overdue",
+    "vendor": "TripHarbor Travel"
+  },
+  {
+    "amount": 53623.13,
+    "category": "Events",
+    "currency": "USD",
+    "due_date": "2026-04-29",
+    "invoice_id": "INV-1014",
+    "issue_date": "2026-05-10",
+    "status": "overdue",
+    "vendor": "Northstar Events"
+  }
+]

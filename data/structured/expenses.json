@@ -1,0 +1,202 @@
+[
+  {
+    "amount": 1070.83,
+    "category": "Travel",
+    "department": "Engineering",
+    "description": "Customer onsite ride and train fare",
+    "employee": "Avery Stone",
+    "expense_id": "EXP-2000",
+    "status": "approved",
+    "submitted_date": "2026-05-01"
+  },
+  {
+    "amount": 443.89,
+    "category": "Meals",
+    "department": "Sales",
+    "description": "Quarterly planning team lunch",
+    "employee": "Mina Patel",
+    "expense_id": "EXP-2001",
+    "status": "pending",
+    "submitted_date": "2026-05-02"
+  },
+  {
+    "amount": 1156.46,
+    "category": "SaaS",
+    "department": "Marketing",
+    "description": "Approved developer SaaS trial",
+    "employee": "Jordan Lee",
+    "expense_id": "EXP-2002",
+    "status": "reimbursed",
+    "submitted_date": "2026-05-03"
+  },
+  {
+    "amount": 1581.82,
+    "category": "Training",
+    "department": "People Operations",
+    "description": "Compliance webinar registration",
+    "employee": "Rosa Kim",
+    "expense_id": "EXP-2003",
+    "status": "rejected",
+    "submitted_date": "2026-05-04"
+  },
+  {
+    "amount": 30.56,
+    "category": "Events",
+    "department": "Customer Success",
+    "description": "Customer advisory board materials",
+    "employee": "Elena Torres",
+    "expense_id": "EXP-2004",
+    "status": "pending",
+    "submitted_date": "2026-05-05"
+  },
+  {
+    "amount": 1574.84,
+    "category": "Office Supplies",
+    "department": "Finance",
+    "description": "Replacement keyboard for office workstation",
+    "employee": "Marcus Young",
+    "expense_id": "EXP-2005",
+    "status": "approved",
+    "submitted_date": "2026-05-06"
+  },
+  {
+    "amount": 1366.81,
+    "category": "Travel",
+    "department": "Engineering",
+    "description": "Customer onsite ride and train fare",
+    "employee": "Nia Brooks",
+    "expense_id": "EXP-2006",
+    "status": "approved",
+    "submitted_date": "2026-05-07"
+  },
+  {
+    "amount": 675.36,
+    "category": "Meals",
+    "department": "Legal",
+    "description": "Quarterly planning team lunch",
+    "employee": "Owen Grant",
+    "expense_id": "EXP-2007",
+    "status": "pending",
+    "submitted_date": "2026-05-08"
+  },
+  {
+    "amount": 318.39,
+    "category": "SaaS",
+    "department": "Engineering",
+    "description": "Approved developer SaaS trial",
+    "employee": "Avery Stone",
+    "expense_id": "EXP-2008",
+    "status": "reimbursed",
+    "submitted_date": "2026-05-09"
+  },
+  {
+    "amount": 1867.34,
+    "category": "Training",
+    "department": "Sales",
+    "description": "Compliance webinar registration",
+    "employee": "Mina Patel",
+    "expense_id": "EXP-2009",
+    "status": "rejected",
+    "submitted_date": "2026-05-10"
+  },
+  {
+    "amount": 668.3,
+    "category": "Events",
+    "department": "Marketing",
+    "description": "Customer advisory board materials",
+    "employee": "Jordan Lee",
+    "expense_id": "EXP-2010",
+    "status": "pending",
+    "submitted_date": "2026-05-11"
+  },
+  {
+    "amount": 197.18,
+    "category": "Office Supplies",
+    "department": "People Operations",
+    "description": "Replacement keyboard for office workstation",
+    "employee": "Rosa Kim",
+    "expense_id": "EXP-2011",
+    "status": "approved",
+    "submitted_date": "2026-05-12"
+  },
+  {
+    "amount": 204.86,
+    "category": "Travel",
+    "department": "Customer Success",
+    "description": "Customer onsite ride and train fare",
+    "employee": "Elena Torres",
+    "expense_id": "EXP-2012",
+    "status": "approved",
+    "submitted_date": "2026-05-13"
+  },
+  {
+    "amount": 1655.36,
+    "category": "Meals",
+    "department": "Finance",
+    "description": "Quarterly planning team lunch",
+    "employee": "Marcus Young",
+    "expense_id": "EXP-2013",
+    "status": "pending",
+    "submitted_date": "2026-05-14"
+  },
+  {
+    "amount": 1184.4,
+    "category": "SaaS",
+    "department": "Engineering",
+    "description": "Approved developer SaaS trial",
+    "employee": "Nia Brooks",
+    "expense_id": "EXP-2014",
+    "status": "reimbursed",
+    "submitted_date": "2026-05-15"
+  },
+  {
+    "amount": 1577.37,
+    "category": "Training",
+    "department": "Legal",
+    "description": "Compliance webinar registration",
+    "employee": "Owen Grant",
+    "expense_id": "EXP-2015",
+    "status": "rejected",
+    "submitted_date": "2026-05-16"
+  },
+  {
+    "amount": 1427.84,
+    "category": "Events",
+    "department": "Engineering",
+    "description": "Customer advisory board materials",
+    "employee": "Avery Stone",
+    "expense_id": "EXP-2016",
+    "status": "pending",
+    "submitted_date": "2026-05-17"
+  },
+  {
+    "amount": 1053.99,
+    "category": "Office Supplies",
+    "department": "Sales",
+    "description": "Replacement keyboard for office workstation",
+    "employee": "Mina Patel",
+    "expense_id": "EXP-2017",
+    "status": "approved",
+    "submitted_date": "2026-05-18"
+  },
+  {
+    "amount": 1898.06,
+    "category": "Travel",
+    "department": "Marketing",
+    "description": "Customer onsite ride and train fare",
+    "employee": "Jordan Lee",
+    "expense_id": "EXP-2018",
+    "status": "pending",
+    "submitted_date": "2026-05-19"
+  },
+  {
+    "amount": 749.33,
+    "category": "Meals",
+    "department": "People Operations",
+    "description": "Quarterly planning team lunch",
+    "employee": "Rosa Kim",
+    "expense_id": "EXP-2019",
+    "status": "pending",
+    "submitted_date": "2026-05-20"
+  }
+]

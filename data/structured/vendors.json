@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Project Management",
+    "contact_email": "billing@cloudboard.example",
+    "name": "CloudBoard Labs",
+    "payment_terms": "Net 30",
+    "vendor_id": "VEN-001"
+  },
+  {
+    "category": "Collaboration SaaS",
+    "contact_email": "ar@synapsesheets.example",
+    "name": "SynapseSheets",
+    "payment_terms": "Net 30",
+    "vendor_id": "VEN-002"
+  },
+  {
+    "category": "Security",
+    "contact_email": "finance@authtower.example",
+    "name": "AuthTower Security",
+    "payment_terms": "Net 45",
+    "vendor_id": "VEN-003"
+  },
+  {
+    "category": "Travel",
+    "contact_email": "accounts@tripharbor.example",
+    "name": "TripHarbor Travel",
+    "payment_terms": "Net 15",
+    "vendor_id": "VEN-004"
+  },
+  {
+    "category": "Events",
+    "contact_email": "billing@northstarevents.example",
+    "name": "Northstar Events",
+    "payment_terms": "Net 30",
+    "vendor_id": "VEN-005"
+  },
+  {
+    "category": "Finance Systems",
+    "contact_email": "invoices@ledgerloop.example",
+    "name": "LedgerLoop Systems",
+    "payment_terms": "Net 30",
+    "vendor_id": "VEN-006"
+  },
+  {
+    "category": "Cloud Infrastructure",
+    "contact_email": "receivables@nimbuscloud.example",
+    "name": "Nimbus Cloud",
+    "payment_terms": "Net 30",
+    "vendor_id": "VEN-007"
+  },
+  {
+    "category": "Legal",
+    "contact_email": "billing@harborlegal.example",
+    "name": "Harbor Legal LLP",
+    "payment_terms": "Net 45",
+    "vendor_id": "VEN-008"
+  },
+  {
+    "category": "Recruiting",
+    "contact_email": "ap@brightpath.example",
+    "name": "BrightPath Recruiting",
+    "payment_terms": "Net 30",
+    "vendor_id": "VEN-009"
+  },
+  {
+    "category": "Data Tools",
+    "contact_email": "billing@metricforge.example",
+    "name": "MetricForge Analytics",
+    "payment_terms": "Net 30",
+    "vendor_id": "VEN-010"
+  }
+]
