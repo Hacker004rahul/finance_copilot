@@ -28,7 +28,12 @@ WELCOME_MESSAGE = (
 )
 
 
-st.set_page_config(page_title="NovaLedger Finance Copilot", page_icon="NL", layout="wide")
+st.set_page_config(
+    page_title="NovaLedger Finance Copilot",
+    page_icon="NL",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 
 st.markdown(
     """
@@ -90,8 +95,13 @@ st.markdown(
         z-index: 1;
     }
 
-    #MainMenu, footer, header {
+    #MainMenu, footer {
         visibility: hidden;
+    }
+
+    header {
+        visibility: visible;
+        background: transparent;
     }
 
     [data-testid="stSidebar"] {
@@ -342,6 +352,12 @@ st.markdown(
         font-weight: 720;
     }
 
+    .mobile-menu-note {
+        color: #475569;
+        font-size: 0.86rem;
+        line-height: 1.45;
+    }
+
     [data-testid="stChatInput"] {
         background: rgba(248, 250, 252, 0.82);
         border-top: 1px solid rgba(148, 163, 184, 0.22);
@@ -364,6 +380,10 @@ st.markdown(
 
         .hero h1 {
             font-size: 1.55rem !important;
+        }
+
+        [data-testid="stSidebar"] {
+            min-width: 18rem;
         }
     }
     </style>
@@ -514,6 +534,30 @@ with st.sidebar:
         "<div class='sidebar-note'>Educational demo only. Not financial advice.</div>",
         unsafe_allow_html=True,
     )
+
+with st.expander("Menu / Recent chats", expanded=False):
+    st.markdown(
+        "<div class='mobile-menu-note'>Use this menu if the sidebar is hidden or collapsed.</div>",
+        unsafe_allow_html=True,
+    )
+    if st.button("Start a new chat", key="mobile_new_chat", use_container_width=True):
+        reset_chat()
+        st.rerun()
+
+    st.markdown("**Recent chats**")
+    for index, item in enumerate(st.session_state.conversations[:5]):
+        label = item["title"]
+        if item["id"] == st.session_state.active_conversation_id:
+            label = "Active - " + label
+        if st.button(label, key=f"mobile_recent_chat_{item['id']}_{index}", use_container_width=True):
+            switch_chat(item["id"])
+            st.rerun()
+
+    st.markdown("**Suggested questions**")
+    for index, question in enumerate(SUGGESTIONS):
+        if st.button(question, key=f"mobile_suggestion_{index}", use_container_width=True):
+            queue_prompt(question)
+            st.rerun()
 
 st.markdown(
     f"""
